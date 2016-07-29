@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XJCTKit"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "XJCTKit测试"
 
   s.description  = <<-DESC
@@ -24,19 +24,20 @@ Pod::Spec.new do |s|
   s.dependency "AMapSearch"
   s.dependency "JPush"
   s.dependency "AFNetworking"
-s.dependency "MJExtension"
-s.dependency "MMAliPaySDK"
-s.dependency "BlocksKit"
-s.dependency "SDWebImage"
+  s.dependency "MJExtension"
+  s.dependency "MMAliPaySDK"
+  s.dependency "BlocksKit"
+  s.dependency "SDWebImage"
+  s.dependency "IQKeyboardManager"
+  s.dependency "Masonry"
+  s.dependency "UMengAnalytics-NO-IDFA"
+  s.dependency "FDFullscreenPopGesture"
+  s.dependency "UITableView+FDTemplateLayoutCell"
+  s.dependency "MOBFoundation"
+  s.dependency "ShareSDK3"
+  s.dependency "ShareSDK3/ShareSDKPlatforms/QQ"
+  s.dependency "ShareSDK3/ShareSDKPlatforms/WeChat"
 
-s.dependency "IQKeyboardManager"
-s.dependency "Masonry"
-s.dependency "UMengAnalytics-NO-IDFA"
-s.dependency "FDFullscreenPopGesture"
-s.dependency "UITableView+FDTemplateLayoutCell"
-s.dependency "MOBFoundation"
-s.dependency "ShareSDK3"
-s.dependency "ShareSDK3/ShareSDKPlatforms/QQ"
-s.dependency "ShareSDK3/ShareSDKPlatforms/WeChat"
+  s.vendored_frameworks = 'XJ/CTKit.framework'
 
 end
