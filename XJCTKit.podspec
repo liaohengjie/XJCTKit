@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XJCTKit"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "XJCTKit测试"
 
   s.description  = <<-DESC
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/liaohengjie/XJCTKit.git", :tag => "#{s.version}" }
 
-  # s.resource  = "icon.png"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   # s.libraries = "iconv", "xml2"
   s.requires_arc = true
@@ -39,5 +38,6 @@ Pod::Spec.new do |s|
   s.dependency "ShareSDK3/ShareSDKPlatforms/WeChat"
 
   s.vendored_frameworks = 'XJ/CTKit.framework'
+  s.resources  = "XJ/CTKit.bundle"
 
 end
