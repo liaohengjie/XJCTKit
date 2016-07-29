@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XJCTKit"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "XJCTKit测试"
 
   s.description  = <<-DESC
